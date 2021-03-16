@@ -9,4 +9,3 @@ function makeFriendsList(friends) {
     return ul;
 }
       
-document.body.append(makeFriendsList(friends));
