@@ -58,7 +58,7 @@ export default class Carousel {
       leftButton.style.display = ''
       startPosition -= slide.offsetWidth
       carouselInner.style.transform = `translateX(${startPosition}px)`
-      if (startPosition < -2 * slide.offsetWidth) {
+      if (startPosition < -1 * slide.offsetWidth) {
         rightButton.style.display = 'none';
       }
     }
